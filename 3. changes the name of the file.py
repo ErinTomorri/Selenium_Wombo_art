@@ -10,11 +10,9 @@ import time
 import glob
 import os
 PATH = 'C:\Program Files (x86)\chromedriver.exe'
-test = "C:/Users/Erin Tomorri/Desktop/nft/test/*.jpg"
-test1 = "C:/Users/Erin Tomorri/Desktop/nft/images/*.jpg"
-a = glob.glob(test1)
-test2 = "C:/Users/Erin Tomorri/Desktop/nft/images/"
-test3 = "C:/Users/Erin Tomorri/Desktop/nft/"
+path = "enter path to where u keep ur images"
+a = glob.glob(path)
+
 num = 0
 num1 = 45
 print (a)
