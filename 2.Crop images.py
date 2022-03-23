@@ -2,14 +2,9 @@ import glob
 import os
 from PIL import Image, ImageDraw, ImageFilter, ImageChops
 
-test = "C:/Users/Erin Tomorri/Desktop/nft/test/*.jpg"
-folder_path = "C:/Users/Erin Tomorri/Desktop/nft/images/*.jpg"
-folder_path1 = "C:/Users/Erin Tomorri/Desktop/nft/final nft/*.jpg"
-blue = 'C:/Users/Erin Tomorri/Desktop/nft/blue/Untitled-1.png'
-b = "C:/Users/Erin Tomorri/Desktop/nft/utopia/*.jpg"
-nature ='C:/Users/Erin Tomorri/Desktop/nft/nature/*.jpg'
+path = "enter your path"
 
-a = glob.glob(folder_path1)
+a = glob.glob(path)
 
 num = 0
 
