@@ -12,8 +12,7 @@ import os
 import sys
 
 
-path = "C:/Users/Erin Tomorri/Desktop/nft/images/"
-path1 = "/Users/Erin Tomorri/Desktop/nft/images/"
+path = "enter path to ur images"
 des="enter ur description here"
 num = 0
 num1 = 64
