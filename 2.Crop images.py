@@ -3,7 +3,7 @@ import os
 from PIL import Image, ImageDraw, ImageFilter, ImageChops
 
 
-"attention: this code will paste a blue square in the middle of ur image, keep the code that is commented out to not have a blue square' 
+#attention: this code will paste a blue square in the middle of ur image, keep the code that is commented out to not have a blue square
 path = "enter your path"
 blue = " where ur blue image is located" 
 a = glob.glob(path)
